@@ -14,15 +14,21 @@ export default function Home() {
                         <a href="#">Docs</a>
                     </nav>
                 </header>
-                <div className="content">
-                    <div className="tag-box">
-                        <div className="tag">Introducing &wedbar; </div>
+                <main>
+                    <div className="content">
+                        <div className="tag-box">
+                            <div className="tag">Introducing &wedbar; </div>
+                        </div>
+                        <h1>EMAIL FOR <br /> DEVELOPERS</h1>
+                        <p className='description'>
+                            The best way to reach out instead of spam folders,deliver transactional and marketing emails with ease.
+                        </p>
+                        <div className="buttons">
+                            <a href="#" className="btn-get-started">Documentation</a>
+                            <a href="#" className="btn-signin-main">Get Started</a>
+                        </div>
                     </div>
-                    <h1>EMAIL FOR <br /> DEVELOPERS</h1>
-                    <p className='description'>
-                        The best way to reach out instead of spam folders,deliver transactional and marketing emails with ease.
-                    </p>
-                </div>
+                </main>
             </div>
         </>
     );
