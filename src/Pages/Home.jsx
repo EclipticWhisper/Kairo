@@ -1,4 +1,5 @@
 import gradientImage from '../Assets/gradient.png';
+import Spline from '@splinetool/react-spline';
 export default function Home() {
     return (
         <>
@@ -17,7 +18,7 @@ export default function Home() {
                 <main>
                     <div className="content">
                         <div className="tag-box">
-                            <div className="tag">Introducing &wedbar; </div>
+                            <div className="tag">Introducing </div>
                         </div>
                         <h1>EMAIL FOR <br /> DEVELOPERS</h1>
                         <p className='description'>
@@ -25,11 +26,12 @@ export default function Home() {
                         </p>
                         <div className="buttons">
                             <a href="#" className="btn-get-started">Documentation</a>
-                            <a href="#" className="btn-signin-main">Get Started</a>
+                            <a href="#" className="btn-signin-main">Get Started </a>
                         </div>
                     </div>
                 </main>
             </div>
+            <Spline scene="https://prod.spline.design/KDtY2Cia-71sTmlN/scene.splinecode" />
         </>
     );
 }
